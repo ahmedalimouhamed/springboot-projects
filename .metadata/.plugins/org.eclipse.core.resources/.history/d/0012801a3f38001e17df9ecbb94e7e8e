@@ -1,0 +1,21 @@
+package com.zerzif.spring.controllers;
+
+import org.springframework.stereotype.Controller;
+
+import com.zerzif.spring.services.StudentService;
+
+@Controller
+@RequestMapping
+public class StudentController {
+	private StudentService studentService;
+
+	public StudentController(StudentService studentService) {
+		super();
+		this.studentService = studentService;
+	}
+	
+	@GetMapping("")
+	public String listStudent() {
+		
+	}
+}

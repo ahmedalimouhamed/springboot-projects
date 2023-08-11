@@ -1,0 +1,13 @@
+package com.zerzif.spring;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class StudentManagmentSystemApplication implements CommandeLineRunner {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StudentManagmentSystemApplication.class, args);
+	}
+
+}

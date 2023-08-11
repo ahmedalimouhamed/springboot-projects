@@ -1,0 +1,10 @@
+package repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.zerzif.spring.entities.Student;
+
+@Repo
+public interface StudentRepository extends JpaRepository<Student, Long> {
+
+}

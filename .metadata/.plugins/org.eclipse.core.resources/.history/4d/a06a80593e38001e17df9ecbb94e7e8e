@@ -1,0 +1,16 @@
+package com.zerzif.spring.services.impl;
+
+import java.util.List;
+
+import com.zerzif.spring.entities.Student;
+import com.zerzif.spring.services.StudentService;
+
+public class StudentServiceImpl implements StudentService{
+
+	@Override
+	public List<Student> getAllStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

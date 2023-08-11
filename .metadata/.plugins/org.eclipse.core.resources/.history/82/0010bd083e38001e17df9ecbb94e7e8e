@@ -1,0 +1,6 @@
+package com.zerzif.spring.controllers;
+
+@Controller
+public class StudentController {
+
+}

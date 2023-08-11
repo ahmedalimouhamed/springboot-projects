@@ -1,0 +1,22 @@
+package com.zerzif.spring.services.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.zerzif.spring.entities.Student;
+import com.zerzif.spring.services.StudentService;
+
+@Service
+public class StudentServiceImpl implements StudentService{
+	
+	@Autowired
+	StudentRepository repo;
+
+	@Override
+	public List<Student> getAllStudents() {
+		return null;
+	}
+
+}

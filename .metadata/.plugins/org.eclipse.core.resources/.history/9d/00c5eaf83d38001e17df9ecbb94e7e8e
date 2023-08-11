@@ -1,0 +1,10 @@
+package com.zerzif.spring.services.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.zerzif.spring.services.StudentService;
+
+@Service
+public class StudentServiceImpl implements StudentService{
+
+}

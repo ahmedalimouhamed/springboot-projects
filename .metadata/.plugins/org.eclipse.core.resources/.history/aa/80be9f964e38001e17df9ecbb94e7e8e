@@ -1,0 +1,11 @@
+package com.zerzif.spring.services;
+
+import java.util.List;
+
+import com.zerzif.spring.entities.Student;
+
+public interface StudentService {
+	List<Student> getAllStudents();
+
+	Student saveStudent();
+}

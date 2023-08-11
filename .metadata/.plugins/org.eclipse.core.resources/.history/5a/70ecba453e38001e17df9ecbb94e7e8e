@@ -1,0 +1,5 @@
+package com.zerzif.spring.services;
+
+public interface StudentService {
+	List<Student> getAll();
+}

@@ -1,0 +1,7 @@
+package com.zerzif.spring.services.impl;
+
+import com.zerzif.spring.services.StudentService;
+
+public class StudentServiceImpl implements StudentService{
+
+}
